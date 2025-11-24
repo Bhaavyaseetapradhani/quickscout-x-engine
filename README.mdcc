@@ -1,0 +1,29 @@
+# QuickScout X - AI Tactical Match Engine
+
+An intelligent cricket tactical analysis tool powered by Google Gemini AI and deployed on Google Cloud Run.
+
+## Features
+- AI-powered opponent analysis using Gemini
+- Tactical intelligence and strategy recommendations
+- Match situation analysis
+- Deployed on Google Cloud Run
+- Real-time database storage with Firestore
+
+## Tech Stack
+- **Frontend**: Streamlit
+- **AI**: Google Generative AI (Gemini)
+- **Database**: Google Cloud Firestore
+- **Deployment**: Google Cloud Run
+
+## Live Demo
+https://quickscout-x-398076176290.us-central1.run.app
+
+## Setup
+1. Install dependencies: `pip install -r requirements.txt`
+2. Add Gemini API key to `.streamlit/secrets.toml`
+3. Run: `streamlit run app.py`
+
+## Build & Blog Marathon 2025
+This project was built for the Google Build and Blog Marathon 2025.
+
+
